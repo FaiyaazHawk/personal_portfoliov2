@@ -137,6 +137,12 @@ svg {
   height: 1px;
   overflow: hidden;
 }
+.skill__header {
+  position: absolute;
+  top: 10px;
+  font-size: var(--fs-72);
+  overflow: hidden;
+}
 
 .wrapper {
   width: calc(100% - 2rem);
@@ -408,6 +414,7 @@ h1 > span {
   position: relative;
 }
 
+
 .skills__wrapper {
   display: grid;
   grid-template-columns: 1fr;
@@ -418,9 +425,12 @@ h1 > span {
 .skills__item {
   text-align: center;
 }
+.skills__header {
+  font-size: var(--fs-72);
+}
 
 .skills__title {
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-size: clamp(1rem, 0.33rem + 7.11vw, 2rem);
   line-height: 1.17;
   margin-block-end: 2px;
